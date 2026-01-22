@@ -1,7 +1,7 @@
 import pickle
 import os
 from pathlib import Path
-from fdmnes_funcs import extract_conv
+from xanes_bench.fdmnes_funcs import extract_conv
 
 root_dir = Path(os.environ.get('PBS_O_WORKDIR', Path.cwd()))
 if root_dir.name == 'fdmnes_batch_runs':

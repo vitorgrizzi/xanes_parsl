@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from fdmnes_funcs import get_normalized_xanes
+from xanes_bench.fdmnes_funcs import get_normalized_xanes
 from pathlib import Path
 import matplotlib.pyplot as plt
 
