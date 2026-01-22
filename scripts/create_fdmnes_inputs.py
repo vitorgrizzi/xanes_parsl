@@ -2,7 +2,7 @@ import shutil
 import pickle
 import os
 from pathlib import Path
-from xanes_bench.fdmnes_funcs import write_fdmnes_input
+from xanes_bench import write_fdmnes_input
 
 root_dir = Path(os.environ.get('PBS_O_WORKDIR', Path.cwd()))
 if root_dir.name == 'fdmnes_batch_runs':
