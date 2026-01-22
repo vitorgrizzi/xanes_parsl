@@ -48,7 +48,7 @@ This installs dependencies and makes the `xanes_bench` library available to the 
     ```bash
     python scripts/expand_db.py
     ```
-    This aggregates the simulation outputs.
+    This expands the database by aggregating the simulation outputs.
 
 ## Directory Structure
 
