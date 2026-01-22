@@ -19,6 +19,9 @@ A collection of Python scripts for high-throughput XANES simulation and analysis
 pip install -r requirements.txt
 ```
 
+3. Install FDMNES on your HPC environment.
+4. Configure Parsl to your HPC environment.
+
 ## Usage
 
 1.  **Create Database**:
