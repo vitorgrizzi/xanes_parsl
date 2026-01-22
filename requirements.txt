@@ -1,0 +1,7 @@
+pymatgen
+mp-api
+ase
+pandas
+numpy
+matplotlib
+parsl
